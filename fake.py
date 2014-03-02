@@ -1,4 +1,6 @@
 # coding:utf-8
 import sys
-
-print sys.os.name
+print 'plateform:',
+print sys.platform
+print 'path:',
+print sys.path
